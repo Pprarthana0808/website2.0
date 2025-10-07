@@ -44,9 +44,7 @@ export const Projects = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
                 <h2>Projects</h2>
-                <p>I’ve developed several projects that combine technology with social impact. **LegisLens**, my AI-powered app accepted at the Congressional Hackathon 6.0, simplifies complex legislation to make government information more accessible. **Chitta**, an award-winning mental health app, uses AI for emotion detection and provides resources to support well-being, earning me the NCWIT Bay Area Award and recognition from the District Attorney. I also created a **Fintech AI app** at the UC Berkeley AI Hackathon that analyzes financial data to deliver user insights, and I’m currently researching **machine learning algorithms for wind power generation** to advance sustainable energy solutions.
-</p>
-                <Tab.Container id="projects-tabs" defaultActiveKey="first">
+                <p>I’ve developed several projects that combine technology with social impact. LegisLens, my AI-powered app accepted at the Congressional Hackathon 6.0, simplifies complex legislation to make government information more accessible. Chitta, an award-winning mental health app, uses AI for emotion detection, provides resources to support well-being, and a AI Therapist,  earning me the NCWIT Bay Area Award and recognition from the California District Attorney. I have also created a Fintech AI app, FinBot, at the UC Berkeley AI Hackathon that analyzes real-time financial data to develop a multi-modal bank aggregator, machine learning stock predictions, mulit-modal financial advisor LLM, and more. 
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>
                       <Nav.Link eventKey="first">Projects</Nav.Link>
