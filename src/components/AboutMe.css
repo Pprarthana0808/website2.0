@@ -1,0 +1,47 @@
+/* App.css */
+
+/* AboutMe section */
+.about-me {
+  margin-top: 100px; /* Adjust the section's top margin */
+  padding: 100px 0; /* Increase padding */
+  background-color: #f8f9fa; /* Optional: Different background color */
+  color: black; /* Set text color to black */
+}
+
+/* Profile and Header Images */
+.profile-pic, .header-image {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.header-image {
+  margin-bottom: 20px; /* Ensure spacing between the two images */
+}
+
+/* Timeline and other text elements */
+.about-me h2 {
+  color: black; /* Ensure the heading is black */
+  margin-top: 20px; /* Add space from the top */
+}
+
+.about-me .timeline-item h3,
+.about-me .timeline-item p {
+  color: black; /* Ensure timeline text is black */
+}
+
+/* Certificate Image */
+.certificate-image {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.certificate-image img {
+  max-width: 5%; /* Adjust the size of the certificate image */
+  height: auto;
+  display: inline-block;
+  border-radius: 8px;
+  margin-top: 20px;
+}

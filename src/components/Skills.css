@@ -1,0 +1,146 @@
+.bubble-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: -1;
+  }
+  
+  .bubble {
+    position: absolute;
+    bottom: -100px;
+    width: 40px;
+    height: 40px;
+    background: rgb(255, 255, 255);
+    border-radius: 50%;
+    animation: rise 5s infinite ease-in-out;
+  }
+  
+  .bubble:nth-child(2) {
+    width: 20px;
+    height: 20px;
+    left: 10%;
+    animation-duration: 10s;
+    animation-delay: 3s;
+  }
+  
+  .bubble:nth-child(3) {
+    width: 50px;
+    height: 50px;
+    left: 20%;
+    animation-duration: 15s;
+    animation-delay: 5s;
+  }
+  
+  .bubble:nth-child(4) {
+    width: 30px;
+    height: 30px;
+    left: 30%;
+    animation-duration: 12s;
+    animation-delay: 7s;
+  }
+  
+  .bubble:nth-child(5) {
+    width: 80px;
+    height: 80px;
+    left: 40%;
+    animation-duration: 25s;
+    animation-delay: 10s;
+  }
+  
+  .bubble:nth-child(6) {
+    width: 60px;
+    height: 60px;
+    left: 50%;
+    animation-duration: 18s;
+    animation-delay: 8s;
+  }
+  
+  .bubble:nth-child(7) {
+    width: 45px;
+    height: 45px;
+    left: 60%;
+    animation-duration: 14s;
+    animation-delay: 6s;
+  }
+  
+  .bubble:nth-child(8) {
+    width: 35px;
+    height: 35px;
+    left: 70%;
+    animation-duration: 22s;
+    animation-delay: 4s;
+  }
+  
+  .bubble:nth-child(9) {
+    width: 55px;
+    height: 55px;
+    left: 80%;
+    animation-duration: 20s;
+    animation-delay: 2s;
+  }
+  
+  .bubble:nth-child(10) {
+    width: 25px;
+    height: 25px;
+    left: 90%;
+    animation-duration: 16s;
+    animation-delay: 9s;
+  }
+  
+  @keyframes rise {
+    0% {
+      bottom: -100px;
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(100px);
+    }
+    100% {
+      bottom: 100vh;
+      transform: translateX(-200px);
+    }
+  }
+  
+  /* Additional styling for the skill section */
+  .skill {
+    top: 50px;
+    padding: 0 0 50px 0;
+    position: relative;
+  }
+  .skill-bx {
+    background: #151515;
+    border-radius: 64px;
+    text-align: center;
+    padding: 60px 50px;
+    margin-top: -60px;
+  }
+  .skill h2 {
+      font-size: 45px;
+      font-weight: 700;
+  }
+  .skill p {
+      color: #B8B8B8;
+      font-size: 18px;
+      letter-spacing: 0.8px;
+      line-height: 1.5em;
+      margin: 14px 0 75px 0;
+  }
+  .skill-slider {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+  }
+  .skill-slider .item img {
+    width: 50%;
+    margin: 0 auto 15px auto;
+  }
+  .background-image-left {
+    top: 28%;
+    position: absolute;
+    bottom: 0;
+    width: 40%;
+    z-index: -4;
+  }
